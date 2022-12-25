@@ -79,15 +79,15 @@ jQuery(function($){
 
     /* ---------------------------------------------- /*
      * Preloader
-    /* ----------------------------------------------
+    /* ---------------------------------------------- */
 	(function () {
 	    $(window).load(function() {
 	        $('#pre-status').fadeOut();
-	        $('#st-preloader').delay(350).fadeOut('slow');
+	        $('#st-preloader').delay(20).fadeOut('slow');
 	    });
 	}());
 
- */
+
 
     /* ---------------------------------------------- /*
      * Animated scrolling / Scroll Up
